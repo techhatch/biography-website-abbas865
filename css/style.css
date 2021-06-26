@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  .fl{ float:left}
+.fr{ float:right}
+.cl{ clear:both; font-size:0; height:0; }
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/bg.jpg");
+}
+.container{    
+    box-sizing:border-box;
+
+}
+.navbar {
+    background-color: #333;
+    width: 100%;
+    display: inline-block;
+  }
+.navbar a{
+   
+float: left;
+   
+text-align: center;
+   
+text-decoration: none;
+   
+font-size: 17px;
+   
+padding: 10px 15px;
+   
+color: #ffff;
+   
+background-color: #333;
+}
+
+.navbar a:hover{
+   
+color: #ffff;
+   
+background-color: green;
+}
+
+a.websiteHeader{
+    background-color: green;
+}
+
+.sidebar{
+    padding: 24px 15px 32px;
+}
+.details_info{
+    width: 230px;
+    text-align: center;
+}
+.details_info img{
+    width: 228px;
+    height: 228px;
+    object-fit: cover;
+    display: block;
+}
+.details_info h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+.details_info p{
+    margin: 5px 0 0;
+}
+.user_info{
+    background: #63b163;
+    padding: 9px 10px 10px 10px;
+    margin: 5px 0px 0px 0px;
+    color: #ffff;
+    /* padding: 0 0; */
+    /* padding: 0; */
+}
+table td ,table th{
+    
+border-bottom: 1px dotted #ccccccad;
+    
+margin: 8px 0 9px;
+}
+.user_left{
+
+float: left;
+
+width: 22%;
+}
+.userinfo_contentright{
+
+float: left;
+
+width: 43%;
+
+margin: 24px 26px 0 0;
+
+background: #fff;
+
+padding: 0;
+}
+.table_details{
+    
+width: 100%;
+    
+/* margin: 0 auto; */
+    
+float: left;
+    
+padding: 19px 21px;
+}
+
+.table_details th{
+    
+padding: 8px 0px 10px 0px;
+    
+text-align: left;
+    }
+    
+.table_details td{
+    
+padding: 8px Ã¢â‚¬â€¹0px 10px 0p;
+    
+text-align: right;
+    }
+
+
+.table_details caption{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+}
+
+.userinfo_contentright h2{
+    
+border-bottom: 5px solid #cccccc80;
+    
+background: #63b163;
+    
+color: #fff;
+    
+font-size: 21px;
+    
+padding: 9px 21px;
+}
+
+.middlebox .userinfo_contentright {
+    width: 100%;
+    margin: 0 auto;
+}
+    
+.middlebox{
+    max-width: 888px;
+    margin: 27px auto;
+}
+
+
+/* skills */
+
+.progress-bar {
+	margin: 0;
+	width: 100%;
+	height: auto;
+	display: -ms-flexbox;
+	text-align: right;
+	float: right;
+}
+
+.progress-bar h1 {
+	text-align: center;
+}
+
+.skills {
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+}
+
+.bar {
+	width: 400px;
+	background: #ddd;
+	margin-left: 20px;
+	height: 20px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.skill-title {
+	width: 59px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bar-color {
+	width: 0%;
+	background: #ddd;
+	height: 100%;
+	border-radius: 10px;
+
+}
+.percent_90,.percent_70,.percent_60,.percent_30{
+    background: rgb(33, 150, 243);
+}
+
+.percent_90{
+    width: 95%;
+}
+.percent_70{
+    width: 70%;
+}
+.percent_60{
+    width: 60%; 
+}
+.percent_30{
+    width: 30%;
+}
+.Biography th,.Biography td{
+
+    text-align: center;
+}
